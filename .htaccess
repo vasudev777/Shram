@@ -1,0 +1,8 @@
+# Block directory indexes
+Options -Indexes
+
+# Restrict direct browser access to database configuration files
+<FilesMatch "^\\.env|db\\.php|db_local\\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

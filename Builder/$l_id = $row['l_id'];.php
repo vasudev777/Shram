@@ -1,0 +1,10 @@
+$l_id = $row['l_id'];
+                      $l_name = $row['l_name'];
+                      $l_number = $row['l_number'];
+                      $l_lang = $row['l_lang'];
+                      $l_wage = $row['l_wage'];
+                      $l_state = $row['l_state'];
+                      $l_city = $row['l_city'];
+                      $l_type = $row['l_type'];
+                      $l_exp = $row['l_exp'];
+                      $l_status = $row['l_status'];
