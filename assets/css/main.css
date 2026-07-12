@@ -2697,3 +2697,16 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+/* Custom Mobile Table Responsiveness Overrides */
+.table-responsive {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    width: 100% !important;
+}
+
+.table-responsive table,
+.table-responsive .table {
+    min-width: 800px !important;
+}
+

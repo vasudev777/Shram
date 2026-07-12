@@ -70,7 +70,7 @@ if(mysqli_num_rows($result) == 1) {
                 </p>
             </div>
             <div style='padding:25px 30px;text-align:center;'>
-                <a href='https://shram.rf.gd/Labour/login.php' style='background:#fcbc04;color:#000;padding:13px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
+                <a href='https://shram.free.nf/Labour/login.php' style='background:#fcbc04;color:#000;padding:13px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
                     Go to Login
                 </a>
             </div>

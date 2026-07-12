@@ -75,7 +75,7 @@ if(mysqli_query($conn, $sql)) {
     mysqli_query($conn, "UPDATE labour_details SET l_token='$token' WHERE l_id='$lid'");
 
     // Email Verify Mail
-    $verify_link = "https://shram.rf.gd/Labour/labour_email_verify.php?token=$token";
+    $verify_link = "https://shram.free.nf/Labour/labour_email_verify.php?token=$token";
 
     $mail = new PHPMailer(true);
     try {

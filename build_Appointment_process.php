@@ -117,13 +117,13 @@ function bookingEmailTemplate($type, $bookingDetails, $recipientName, $status = 
         <div style='padding:20px 30px;background:#fff9e6;border-left:4px solid #fcbc04;margin:0 20px 20px;border-radius:8px;'>
             <p style='margin:0;color:#555;font-size:14px;line-height:1.7;'>
                 ℹ️ Your booking status is currently <b>Pending</b>. You will receive an email once it is <b>Accepted</b> or <b>Rejected</b>. 
-                You can also track your booking status on the <a href='https://shram.rf.gd/cust_history.php' style='color:#fcbc04;font-weight:bold;'>History Page</a>.
+                You can also track your booking status on the <a href='https://shram.free.nf/cust_history.php' style='color:#fcbc04;font-weight:bold;'>History Page</a>.
             </p>
         </div>
 
         <!-- CTA -->
         <div style='padding:25px 30px;background:#fff;text-align:center;'>
-            <a href='https://shram.rf.gd' style='background:#fcbc04;color:#000;padding:13px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
+            <a href='https://shram.free.nf' style='background:#fcbc04;color:#000;padding:13px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
                 🏠 Go to Shram
             </a>
         </div>

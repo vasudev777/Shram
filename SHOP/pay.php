@@ -96,7 +96,7 @@ var options = {
     currency: "INR",
     name: "Shram",
     description: "Shop Purchase",
-    image: "https://shram.rf.gd/assets/img/favicon1.png",
+    image: "https://shram.free.nf/assets/img/favicon1.png",
     
  
     

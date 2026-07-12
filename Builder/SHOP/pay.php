@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
             "phone" => $number,
             "send_email" => true,
             "email" => $email,
-            "redirect_url" => "http://localhost/SHRAM/builder/SHOP/success.php"
+            "redirect_url" => "https://shram.free.nf/Builder/SHOP/success.php"
             ));
     $url=$response["longurl"];
        header("location:$url");

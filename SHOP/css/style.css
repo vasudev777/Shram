@@ -9710,3 +9710,17 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translateY(-15px);
   }
 }
+
+
+/* Custom Mobile Table Responsiveness Overrides */
+.table-responsive {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    width: 100% !important;
+}
+
+.table-responsive table,
+.table-responsive .table {
+    min-width: 750px !important;
+}
+

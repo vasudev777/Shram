@@ -173,7 +173,7 @@ if (isset($_GET['unblockid'])) {
 
                 <div style='padding:20px 30px;text-align:center;background:#fff;'>
                     <p style='color:#777;font-size:13px;'>Don't worry! You can book another labour on Shram.</p>
-                    <a href='https://shram.rf.gd' style='background:#fcbc04;color:#000;padding:10px 30px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:14px;display:inline-block;margin-top:10px;'>
+                    <a href='https://shram.free.nf' style='background:#fcbc04;color:#000;padding:10px 30px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:14px;display:inline-block;margin-top:10px;'>
                         🔍 Find Another Labour
                     </a>
                 </div>

@@ -103,7 +103,7 @@ $mail->Body = "
 
         <!-- Feature 1 -->
         <div style='background:#fff;border-radius:12px;overflow:hidden;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,0.06);'>
-            <img src='https://shram.rf.gd/assets/img/17-SM701138.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Dream House'>
+            <img src='https://shram.free.nf/assets/img/17-SM701138.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Dream House'>
             <div style='padding:15px 20px;'>
                 <h4 style='color:#333;margin:0 0 6px;font-size:16px;'>🏠 Make Your Dream House</h4>
                 <p style='color:#666;font-size:13px;margin:0;line-height:1.7;'>Book skilled workers and professional builders to construct your dream home with ease and confidence.</p>
@@ -112,7 +112,7 @@ $mail->Body = "
 
         <!-- Feature 2 -->
         <div style='background:#fff;border-radius:12px;overflow:hidden;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,0.06);'>
-            <img src='https://shram.rf.gd/assets/img/12-SM925889.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Experienced Labour'>
+            <img src='https://shram.free.nf/assets/img/12-SM925889.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Experienced Labour'>
             <div style='padding:15px 20px;'>
                 <h4 style='color:#333;margin:0 0 6px;font-size:16px;'>👷 Experienced Labour</h4>
                 <p style='color:#666;font-size:13px;margin:0;line-height:1.7;'>Choose from 7 skilled categories — Mason, Carpenter, Electrical, Plumber, Painter, Welder & Helper. All verified professionals!</p>
@@ -121,7 +121,7 @@ $mail->Body = "
 
         <!-- Feature 3 -->
         <div style='background:#fff;border-radius:12px;overflow:hidden;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,0.06);'>
-            <img src='https://shram.rf.gd/assets/img/20-SM203718.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Construction Shop'>
+            <img src='https://shram.free.nf/assets/img/20-SM203718.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Construction Shop'>
             <div style='padding:15px 20px;'>
                 <h4 style='color:#333;margin:0 0 6px;font-size:16px;'>🛒 Construction Shop</h4>
                 <p style='color:#666;font-size:13px;margin:0;line-height:1.7;'>Shop for all construction materials and tools directly from Shram's virtual item shop — everything you need in one place!</p>
@@ -130,7 +130,7 @@ $mail->Body = "
 
         <!-- Feature 4 -->
         <div style='background:#fff;border-radius:12px;overflow:hidden;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,0.06);'>
-            <img src='https://shram.rf.gd/assets/img/220-SM896259.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Passionate Builder'>
+            <img src='https://shram.free.nf/assets/img/220-SM896259.jpg' style='width:100%;height:180px;object-fit:cover;' alt='Passionate Builder'>
             <div style='padding:15px 20px;'>
                 <h4 style='color:#333;margin:0 0 6px;font-size:16px;'>🏢 Passionate Builders</h4>
                 <p style='color:#666;font-size:13px;margin:0;line-height:1.7;'>Find experienced builders based on location, rating & experience. Perfect for large construction projects!</p>
@@ -203,7 +203,7 @@ $mail->Body = "
     <!-- CTA -->
     <div style='padding:35px 30px;background:#fff;text-align:center;'>
         <p style='color:#555;font-size:15px;margin:0 0 20px;'>Ready to build something great?</p>
-        <a href='https://shram.rf.gd' style='background:#fcbc04;color:#000;padding:15px 45px;border-radius:30px;text-decoration:none;font-weight:bold;font-size:16px;display:inline-block;'>
+        <a href='https://shram.free.nf' style='background:#fcbc04;color:#000;padding:15px 45px;border-radius:30px;text-decoration:none;font-weight:bold;font-size:16px;display:inline-block;'>
             🚀 Explore Shram Now
         </a>
     </div>

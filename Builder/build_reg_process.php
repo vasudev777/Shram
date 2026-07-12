@@ -66,7 +66,7 @@ if(mysqli_query($conn, $sql)) {
     // ═══════════════════════════
     // EMAIL VERIFY MAIL
     // ═══════════════════════════
-    $verify_link = "https://shram.rf.gd/Builder/email_verify.php?token=$token";
+    $verify_link = "https://shram.free.nf/Builder/email_verify.php?token=$token";
 
     $mail = new PHPMailer(true);
     try {

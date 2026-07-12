@@ -122,7 +122,7 @@ if($action == 'approve') {
             <!-- CTA -->
             <div style='padding:25px 30px;text-align:center;background:#fff;'>
                 <p style='color:#555;font-size:14px;margin-bottom:15px;'>Ready to start your journey with Shram?</p>
-                <a href='https://shram.rf.gd/Labour/login.php' style='background:#fcbc04;color:#000;padding:14px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
+                <a href='https://shram.free.nf/Labour/login.php' style='background:#fcbc04;color:#000;padding:14px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
                     Login to Labour Portal
                 </a>
             </div>

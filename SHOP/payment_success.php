@@ -307,7 +307,7 @@ $pdfHtml = "
     </div>
     <div class='footer-right'>
         <p>shram0610@gmail.com</p>
-        <p>shram.rf.gd</p>
+        <p>shram.free.nf</p>
         <p>© 2024 Shram. All rights reserved.</p>
     </div>
 </div>
@@ -423,7 +423,7 @@ try {
 
         <!-- CTA -->
         <div style='padding:25px 30px;background:#fff;text-align:center;'>
-            <a href='https://shram.rf.gd/SHOP/index.php' style='background:#fcbc04;color:#000;padding:13px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
+            <a href='https://shram.free.nf/SHOP/index.php' style='background:#fcbc04;color:#000;padding:13px 40px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:15px;display:inline-block;'>
                 🛒 Continue Shopping
             </a>
         </div>

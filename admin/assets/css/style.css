@@ -1258,3 +1258,34 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+/* Custom Mobile Table & Datatable Responsiveness Overrides */
+.card.recent-sales.overflow-auto,
+.card-body,
+.table-responsive {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    width: 100% !important;
+}
+
+.card.recent-sales.overflow-auto table,
+.card-body table,
+.datatable,
+.table-responsive table {
+    min-width: 850px !important;
+}
+
+@media (max-width: 768px) {
+    .filter-bar {
+        display: flex !important;
+        overflow-x: auto !important;
+        flex-wrap: nowrap !important;
+        padding-bottom: 8px !important;
+        -webkit-overflow-scrolling: touch !important;
+        width: 100% !important;
+    }
+    .filter-pill {
+        flex: 0 0 auto !important;
+    }
+}
+
