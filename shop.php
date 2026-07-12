@@ -76,7 +76,7 @@
                 <i class="fa-solid fa-mountain-city"></i>
               </div>
               <h3>Builder</h3>
-              <a href="Builder/SHOP" class="readmore stretched-link"> <i class="bi bi-arrow-right"></i></a>
+              <a href="SHOP/index.php" class="readmore stretched-link"> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -96,7 +96,7 @@
                 <i class="fa-solid fa-compass-drafting"></i>
               </div>
               <h3>labour</h3>
-              <a href="labour/SHOP" class="readmore stretched-link"> <i class="bi bi-arrow-right"></i></a>
+              <a href="SHOP/index.php" class="readmore stretched-link"> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 

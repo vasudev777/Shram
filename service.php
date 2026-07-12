@@ -85,7 +85,7 @@
                 <i class="fa-solid fa-arrow-up-from-ground-water"></i>
               </div>
               <h3>Shop</h3>
-              <a href="../SHOP/index.php" class="readmore stretched-link"> <i class="bi bi-arrow-right"></i></a>
+              <a href="SHOP/index.php" class="readmore stretched-link"> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 

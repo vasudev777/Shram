@@ -248,7 +248,7 @@ website is there is an exponential amount of customer who can book labor so the 
               </div>
               <h3>Shop</h3>
               <p></p>
-              <a href="shop.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+              <a href="SHOP/index.php" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
