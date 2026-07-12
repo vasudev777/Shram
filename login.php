@@ -226,29 +226,43 @@ const firebaseConfig = {
 
   // Google Login
   function googleLogin() {
+    if (window.AndroidInterface) {
+      // Running inside Android app -> Trigger native Sign-In!
+      window.AndroidInterface.launchGoogleSignIn();
+      return;
+    }
     const provider = new firebase.auth.GoogleAuthProvider();
     firebase.auth().signInWithPopup(provider).then(function(result) {
       const email = result.user.email;
       const name  = result.user.displayName;
-      // Send to PHP for verification
-      const form = document.createElement('form');
-      form.method = 'POST';
-      form.action = 'google_login_process.php';
-      const emailInput = document.createElement('input');
-      emailInput.type = 'hidden';
-      emailInput.name = 'email';
-      emailInput.value = email;
-      const nameInput = document.createElement('input');
-      nameInput.type = 'hidden';
-      nameInput.name = 'name';
-      nameInput.value = name;
-      form.appendChild(emailInput);
-      form.appendChild(nameInput);
-      document.body.appendChild(form);
-      form.submit();
+      submitGoogleLogin(email, name);
     }).catch(function(error) {
       alert('Google Login Failed: ' + error.message);
     });
+  }
+
+  // Shared submit helper
+  function submitGoogleLogin(email, name) {
+    const form = document.createElement('form');
+    form.method = 'POST';
+    form.action = 'google_login_process.php';
+    const emailInput = document.createElement('input');
+    emailInput.type = 'hidden';
+    emailInput.name = 'email';
+    emailInput.value = email;
+    const nameInput = document.createElement('input');
+    nameInput.type = 'hidden';
+    nameInput.name = 'name';
+    nameInput.value = name;
+    form.appendChild(emailInput);
+    form.appendChild(nameInput);
+    document.body.appendChild(form);
+    form.submit();
+  }
+
+  // Callback function for Android Native login
+  function handleGoogleUserNative(email, name, uid) {
+    submitGoogleLogin(email, name);
   }
 </script>
 
