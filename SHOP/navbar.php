@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
-                    <a href="" class="text-decoration-none d-block d-lg-none">
+                    <a href="../index.php" class="text-decoration-none d-block d-lg-none">
                         <span class="h1 text-uppercase text-dark bg-light px-2">Multi</span>
                         <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">Shop</span>
                     </a>
@@ -37,6 +37,7 @@
                             <a href="index.php" class="nav-item nav-link active">Home</a>
                             <a href="cart.php" class="nav-item nav-link">Cart</a>
                             <a href="fev.php" class="nav-item nav-link">favorite</a>
+                            <a href="../index.php" class="nav-item nav-link">Main Website</a>
                             
           <?php                  if (isset($_SESSION['uemail'])){ 
             $name=$_SESSION['cust_name'];  
