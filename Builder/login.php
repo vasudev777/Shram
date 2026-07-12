@@ -179,6 +179,11 @@
   }
 
   function googleLogin() {
+    if (window.AndroidInterface) {
+      // Running inside Android app -> Trigger native Sign-In!
+      window.AndroidInterface.launchGoogleSignIn();
+      return;
+    }
     const provider = new firebase.auth.GoogleAuthProvider();
     firebase.auth().signInWithPopup(provider).then(function(result) {
       const email = result.user.email;
@@ -204,6 +209,28 @@
     }).catch(function(error) {
       alert('Google Login Failed: ' + error.message);
     });
+  }
+
+  // Native bridge handler called by Android wrapper
+  function handleGoogleUserNative(email, name, uid) {
+    const form = document.createElement('form');
+    form.method = 'POST';
+    form.action = 'builder_google_login.php';
+    
+    const emailInput = document.createElement('input');
+    emailInput.type = 'hidden';
+    emailInput.name = 'email';
+    emailInput.value = email;
+    
+    const nameInput = document.createElement('input');
+    nameInput.type = 'hidden';
+    nameInput.name = 'name';
+    nameInput.value = name;
+    
+    form.appendChild(emailInput);
+    form.appendChild(nameInput);
+    document.body.appendChild(form);
+    form.submit();
   }
 </script>
 

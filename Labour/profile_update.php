@@ -29,6 +29,13 @@ if(isset($_FILES['photo']) && $_FILES['photo']['error'] == 0) {
     }
 }
 
+$password = $_POST['password'] ?? '';
+$pass_update = "";
+if(!empty($password)) {
+    $pass_encode = password_hash($password, PASSWORD_DEFAULT);
+    $pass_update = ", `l_password`='$pass_encode'";
+}
+
 $sql = "UPDATE `labour_details` SET 
         `l_name`='$name',
         `l_number`='$phone',
@@ -38,6 +45,7 @@ $sql = "UPDATE `labour_details` SET
         `l_wage`='$wage',
         `l_type`='$type'
         $photo_update
+        $pass_update
         WHERE l_id='$id'";
 
 if(mysqli_query($conn, $sql)) {

@@ -260,6 +260,13 @@
                       </div>
                     </div>
 
+                    <div class="row mb-3">
+                      <label class="col-md-4 col-lg-3 col-form-label">New Password</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="password" type="password" class="form-control" placeholder="Leave blank to keep current password">
+                      </div>
+                    </div>
+
                     <div class="text-center">
                       <button type="submit" class="btn btn-primary">Save Changes</button>
                     </div>

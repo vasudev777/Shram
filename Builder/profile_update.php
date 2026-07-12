@@ -27,6 +27,13 @@ if(isset($_FILES['photo']) && $_FILES['photo']['error'] == 0) {
     }
 }
 
+$password = $_POST['password'] ?? '';
+$pass_update = "";
+if(!empty($password)) {
+    $pass_encode = password_hash($password, PASSWORD_DEFAULT);
+    $pass_update = ", `b_password`='$pass_encode'";
+}
+
 $sql = "UPDATE `build_details` SET 
         `b_name`='$name',
         `b_experience`='$exp',
@@ -34,6 +41,7 @@ $sql = "UPDATE `build_details` SET
         `b_city`='$city',
         `b_landmark`='$landmark'
         $photo_update
+        $pass_update
         WHERE b_id='$id'";
 
 if(mysqli_query($conn, $sql)) {

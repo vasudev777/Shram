@@ -155,7 +155,7 @@ if($action == 'approve') {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'shram0610@gmail.com';
-        $mail->Password   = 'tbzy bbit aogh hbgj';
+        $mail->Password   = 'kpzcibrgboyomwel';
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 

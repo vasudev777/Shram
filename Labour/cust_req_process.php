@@ -39,7 +39,7 @@ if (isset($_GET['blockid'])) {
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'shram0610@gmail.com';
-            $mail->Password   = 'tbzy bbit aogh hbgj';
+            $mail->Password   = 'kpzcibrgboyomwel';
             $mail->SMTPSecure = 'tls';
             $mail->Port       = 587;
 
@@ -131,7 +131,7 @@ if (isset($_GET['unblockid'])) {
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'shram0610@gmail.com';
-            $mail->Password   = 'tbzy bbit aogh hbgj';
+            $mail->Password   = 'kpzcibrgboyomwel';
             $mail->SMTPSecure = 'tls';
             $mail->Port       = 587;
 

@@ -9,6 +9,13 @@
         </a>
       </li><!-- End Dashboard Nav -->
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="../index.php">
+          <i class="bi bi-globe"></i>
+          <span>Main Website</span>
+        </a>
+      </li><!-- End Main Website Nav -->
+
       <li class="nav-heading">Customer</li>
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
